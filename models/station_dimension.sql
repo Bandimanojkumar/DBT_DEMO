@@ -1,5 +1,6 @@
 with BIKE as (
     select 
+    distinct
     start_statio_id as START_STATION_ID,
     start_station_name as station_name,
     start_lat as start_station_lat,
