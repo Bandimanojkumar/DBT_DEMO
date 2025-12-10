@@ -1,0 +1,8 @@
+version: 2
+sources:
+  - name: demo
+    database: mydb  
+    schema: myschema  
+    tables:
+      - name: bike
+      - name: weather
